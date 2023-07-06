@@ -17,12 +17,15 @@ body{
     border-radius: 20px;
     overflow: hidden;
     transition: all ease-out 0.2s;
+    
+    :hover{
+        transform: scale(1.05);
+
+    }
 
 }
 
-.card-border:hover{
-    transform: scale(1.05);
-}
+
 
 
 
