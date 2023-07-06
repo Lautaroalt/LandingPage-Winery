@@ -1,11 +1,3 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: rgb(105, 105, 103);
-}
-
 #about-img {
   border-radius: 15px;
 }
@@ -16,9 +8,16 @@ body {
   overflow: hidden;
   transition: all ease-out 0.2s;
 }
-
-.card-border:hover {
+.card-border .card-border:hover {
   transform: scale(1.05);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(105, 105, 103);
 }
 
 #vinos {
