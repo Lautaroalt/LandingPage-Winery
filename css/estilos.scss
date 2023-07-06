@@ -1,9 +1,12 @@
+@import '../scss/abstract/variables';
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(105, 105, 103);
+    background-color: $colorfondo;
 }
 //Index
 
@@ -28,7 +31,7 @@ body{
 
 #vinos{
     background: rgb(255, 255, 255);
-    background-color: rgb(105, 105, 103);
+    background-color: $colorfondo;
     background-size: 75%;
     margin-top: -20px;
 }
