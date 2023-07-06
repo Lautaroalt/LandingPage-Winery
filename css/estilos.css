@@ -16,7 +16,8 @@ body {
   overflow: hidden;
   transition: all ease-out 0.2s;
 }
-.card-border :hover {
+
+.card-border:hover {
   transform: scale(1.05);
 }
 
