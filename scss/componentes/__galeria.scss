@@ -6,10 +6,12 @@
     }
     img{
        width: 100%;
-       height: 400px; 
+       height: 400px;
+       transition: all 0.9s;
     }
 
-}
-img:hover{
-    border: 5px solid #ee3838;
+    img:hover{
+        border: 7px solid #aa3f3f;
+        transform: scale(1.1);
+    }
 }
