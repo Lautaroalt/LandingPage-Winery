@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Descubre nuestra bodega, disfruta nuestros vinos y contempla un unico paisaje">
+    <meta name="keywords" content="Bodega, vino, cava, catar, wine, roadtrip, viaje, aventura, mendoza, cordillera">
+    <title>Vinos</title>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -44,7 +47,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="../img/slide1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-none d-md-block" data-aos="fade-right">
                     <h5>SantanderShop</h5>
                     <p>Disfrutá</p>
                 </div>
@@ -78,7 +81,7 @@
         </div>
 
 
-        <div class="container pt-5">
+        <div class="container pt-5" data-aos="fade-right">
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
@@ -117,7 +120,7 @@
 
             </div>
         </div>
-        <div class="container pt-5">
+        <div class="container pt-5" data-aos="fade-right">
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
@@ -171,7 +174,7 @@
 
         <div id="footer" class="p-5">
             <div class="row justify-content-md-center py-5">
-                <div class="col text-center font-weight-light">
+                <div class="col text-center font-weight-light" data-aos="zoom-in">
                     <p>Bodega Santander se reserva el derecho de admision.</p>
                     <p>Prohibida su venta y consumo para menores de 18 anos</p>
                     <p>Derechos Reservados. Lautaro Altamirano </p>
@@ -179,6 +182,11 @@
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="../js/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

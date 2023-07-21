@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubre nuestra bodega, disfruta nuestros vinos y contempla un unico paisaje">
     <meta name="keywords" content="Bodega, vino, cava, catar, wine, roadtrip, viaje, aventura, mendoza, cordillera">
-    <title>Bodega Santander</title>
+    <title>Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
@@ -64,7 +64,7 @@
 
     <section class="about section-padding py-5">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
                         <img id="about-img" src="./img/nosotros-vinedo.jpg" class="img-fluid" alt="Bodega">
@@ -97,7 +97,7 @@
 
     <section class="about section-padding py-5">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
                         <img id="about-img" src="./img/galeria2.jpg" class="img-fluid" alt="store">
@@ -126,12 +126,12 @@
     <div id="vinos">
         <div class="container-md p5">
             <div class="row pt-5">
-                <h3 class="text-center pb-5 pt-5 h" style="color: aliceblue;">
+                <h3 class="text-center pb-5 pt-5 h" style="color: aliceblue;" data-aos="fade-up">
                     Nuestros Vinos
                 </h3>
             </div>
 
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
                         <img src="./img/fotovino6.jpg" class="card-img-top" alt="...">
@@ -159,7 +159,8 @@
                         <img src="./img/fotovino5.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Dealu Mare</h5>
-                            <p class="card-text"> Este vino de edicion limitada, acompana todas tus comidas y es ideal para compartir entre familia y/o amigos.</p>
+                            <p class="card-text"> Este vino de edicion limitada, acompana todas tus comidas y es ideal
+                                para compartir entre familia y/o amigos.</p>
                         </div>
                     </div>
                 </div>
@@ -210,7 +211,10 @@
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+    <script>
+        AOS.init();
+    </script>
+
     <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous">
         </script>
